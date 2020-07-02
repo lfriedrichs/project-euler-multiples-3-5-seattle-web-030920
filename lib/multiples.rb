@@ -5,6 +5,6 @@ def collect_multiples(limit)
     number if number % 3 == 0 || number % 5 == 0}
 end
 
-def sum_multiples 
+def sum_multiples(number) 
   
 end
