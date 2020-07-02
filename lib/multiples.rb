@@ -1,6 +1,7 @@
 # Enter your procedural solution here!
 
 def collect_multiples(limit)
-  array =* (3..limit)
+  (3..limit).to_a.select {|number| 
+    number if number % 3 == 0 || number % 5 == 0}
   
 end
