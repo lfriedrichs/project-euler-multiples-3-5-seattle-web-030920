@@ -6,5 +6,5 @@ def collect_multiples(limit)
 end
 
 def sum_multiples(number) 
-  
+  number
 end
